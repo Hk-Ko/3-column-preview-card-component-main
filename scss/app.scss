@@ -1,0 +1,58 @@
+
+
+
+$primary:hsl(31, 77%, 52%);
+$secondary:hsl(184, 100%, 22%);
+$info: hsl(179, 100%, 13%);
+
+$btn-border-radius:1.5rem;
+$input-btn-padding-x:1.2rem;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.header-font{
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.text-font{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: small;
+}
+
+.btn-text{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: small;
+}
+
+.box-one{
+    border-radius:12px 0px 0px 12px ;
+}
+
+.box-two{
+    border-radius: 0;
+}
+
+.box-three{
+    border-radius: 0px 12px 12px 0px;
+}
+
+@media screen and (max-width:992px){
+    .box-one{
+        border-radius:12px 12px 0px 0px ;
+    }
+    
+    .box-two{
+        border-radius: 0;
+    }
+    
+    .box-three{
+        border-radius: 0px 0px 12px 12px;
+    }
+}
